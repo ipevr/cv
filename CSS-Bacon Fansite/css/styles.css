@@ -1,0 +1,31 @@
+/****************************** TAGS SELECTORS ********************************/
+h1 {
+  color: red;
+  font-size: 50px;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+/****************************** CLASSES SELECTORS ********************************/
+/* can be used more than once on a page                                          */
+
+.healthy {
+  background-color: green;
+}
+
+.unhealthy {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/****************************** ID SELECTORS ********************************/
+/* can only be used one time per page (are unique)                          */
+
+#heading {
+  font-size: 100px;
+}
